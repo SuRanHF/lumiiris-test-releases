@@ -1,12 +1,12 @@
 {
-  "versionCode": 22,
-  "versionName": "2.0.3",
+  "versionCode": 23,
+  "versionName": "2.0.4",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.3 测试版\n• 像素级眼眶 1:1 贴合对齐：AI / 视觉定位后沿着真实雕塑与实拍眼皮边缘精准分割抠眼，默认 0% 无多余扩边，并用快速二维距离场驱动无损「收缩/扩张」与羽化微调\n• 三视图/拼图与留白自动裁剪放大：上传含正侧斜多视角的拼图或带边距图时，自动剔除分隔线与背景留白，锁定正脸并将娃头裁切放大至占满画面\n• 试戴室空间与画布缩放全面升级：支持 1x / 1.8x / 2.6x 缩放与移图细看眼眶接缝、全屏切换，控制区改为「收起 / 半高 / 展开」三段式可拖拽分类抽屉",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.3/LumiIris-v2.0.3.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.3/LumiIris-v2.0.3.apk",
-  "sha256": "ad5a3554e4648029218ba27f202ddb4b2cd0774f3da4364abc6410e3ff3fceb9",
-  "fileSizeBytes": 119149456,
-  "publishedAt": "2026-11-19T20:22:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.4 测试版\n• 眼部高清 1280px 精抠升级：取消 512px 降采样限制，高清照片按原生分辨率生成精细遮罩，显著减少放大查看时的边缘锯齿\n• 多阶段亚像素边缘精修：素头采用「四象限光照自适应 + 144 射线亚像素眼缘吸附 + 4×4 超采样」，妆面/实拍眼采用「前背景 K-Means 聚类 + 双边 MRF 迭代分割」，并在窄眼缘过渡带叠加 Guided Image Filter 光学融边，默认 0% 完整保留精细亚像素通道\n• 手动智能画笔同样升级亚像素 Guided 融边，不再出现硬阶梯羽化\n• 试戴室镜头优化：点击 1.8x / 2.8x / 3.5x 自动锁定并对焦到双眼中心",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.4/LumiIris-v2.0.4.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.4/LumiIris-v2.0.4.apk",
+  "sha256": "8cb312445c2b2ffbbf223216c40bb4303ae940bd13f5282e578295b15e36c3d4",
+  "fileSizeBytes": 119165840,
+  "publishedAt": "2026-11-19T21:35:00+08:00"
 }
