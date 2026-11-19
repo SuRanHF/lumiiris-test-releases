@@ -1,12 +1,12 @@
 {
-  "versionCode": 20,
-  "versionName": "2.0.1",
+  "versionCode": 21,
+  "versionName": "2.0.2",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.1 测试版\n• 2.5D 试戴还原原图真实形状（非圆形、不裁剪不变形），并默认支持「无高光」样式与眼白底球开关\n• 入头试戴全面升级为「涂抹自动识别眼眶 + 嵌入头内遮罩（带娃头上眼皮自然投影）」\n• 支持「双眼联动 / 仅调左眼 / 仅调右眼」单指移动、双指缩放与旋转随时微调",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.1/LumiIris-v2.0.1.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.1/LumiIris-v2.0.1.apk",
-  "sha256": "aadb7cff727527b0f4f891b18c6cb091f19b8925f9b0caeb4328110c5abd7e48",
-  "fileSizeBytes": 77800787,
-  "publishedAt": "2026-11-19T14:47:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.2 测试版\n• 入头试戴接入本地离线 AI 人脸眼廓自动识别（兼素头/二次元对称视觉兜底），传图后一键自动顺着眼皮轮廓抠出双眼并嵌入娃头\n• 新增「AI 眼眶范围微调（收缩/扩张）」与「眼眶边缘羽化」实时滑块，无需反复手抹\n• 修复底座&眼柄模式下「眼珠外径 / 虹膜占比 / 折射」实时预览生效，新增毫米标尺刻度与状态确认提示",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.2/LumiIris-v2.0.2.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.2/LumiIris-v2.0.2.apk",
+  "sha256": "b7135ba6311ef623523210c13ca1a80cc81d74bb4883cb4763f99a1e1c9780bc",
+  "fileSizeBytes": 118969232,
+  "publishedAt": "2026-11-19T15:39:00+08:00"
 }
