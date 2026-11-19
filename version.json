@@ -1,12 +1,12 @@
 {
-  "versionCode": 21,
-  "versionName": "2.0.2",
+  "versionCode": 22,
+  "versionName": "2.0.3",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.2 测试版\n• 入头试戴接入本地离线 AI 人脸眼廓自动识别（兼素头/二次元对称视觉兜底），传图后一键自动顺着眼皮轮廓抠出双眼并嵌入娃头\n• 新增「AI 眼眶范围微调（收缩/扩张）」与「眼眶边缘羽化」实时滑块，无需反复手抹\n• 修复底座&眼柄模式下「眼珠外径 / 虹膜占比 / 折射」实时预览生效，新增毫米标尺刻度与状态确认提示",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.2/LumiIris-v2.0.2.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.2/LumiIris-v2.0.2.apk",
-  "sha256": "b7135ba6311ef623523210c13ca1a80cc81d74bb4883cb4763f99a1e1c9780bc",
-  "fileSizeBytes": 118969232,
-  "publishedAt": "2026-11-19T15:39:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.3 测试版\n• 像素级眼眶 1:1 贴合对齐：AI / 视觉定位后沿着真实雕塑与实拍眼皮边缘精准分割抠眼，默认 0% 无多余扩边，并用快速二维距离场驱动无损「收缩/扩张」与羽化微调\n• 三视图/拼图与留白自动裁剪放大：上传含正侧斜多视角的拼图或带边距图时，自动剔除分隔线与背景留白，锁定正脸并将娃头裁切放大至占满画面\n• 试戴室空间与画布缩放全面升级：支持 1x / 1.8x / 2.6x 缩放与移图细看眼眶接缝、全屏切换，控制区改为「收起 / 半高 / 展开」三段式可拖拽分类抽屉",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.3/LumiIris-v2.0.3.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.3/LumiIris-v2.0.3.apk",
+  "sha256": "ad5a3554e4648029218ba27f202ddb4b2cd0774f3da4364abc6410e3ff3fceb9",
+  "fileSizeBytes": 119149456,
+  "publishedAt": "2026-11-19T20:22:00+08:00"
 }
