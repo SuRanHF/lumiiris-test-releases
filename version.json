@@ -4,7 +4,8 @@
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
   "changelog": "璃瞳 LumiIris v2.0.0 测试版\n• 新增「2.5D 试戴室」：支持带柄半球底座、平底眼片、二次元椭圆底座与 45° 眼柄贴合检视\n• 支持导入实拍娃头照片通过四点锚框或涂抹橡皮擦挖空眼眶试戴、单指拖动调视线追视，并将眼径与虹膜占比一键同步回排版工作台",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.0/LumiIris-v2.0.0.apk",
+  "apkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.0/LumiIris-v2.0.0.apk",
+  "fallbackApkUrl": "https://gh-proxy.com/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.0/LumiIris-v2.0.0.apk",
   "sha256": "97b87e51e851eaa8061b0ae7e6f2e853e81d065956f30ca20701740126cf24fc",
   "fileSizeBytes": 77702483,
   "publishedAt": "2026-11-19T11:00:00+08:00"
