@@ -1,12 +1,12 @@
 {
-  "versionCode": 24,
-  "versionName": "2.0.5",
+  "versionCode": 25,
+  "versionName": "2.0.6",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.5 测试版\n• 眼缘前景去色溢净色（Decontaminate Colors）：在眼眶半透明交界自动剔除旧灰眼窝底色残留，消除 DST_OUT 合成导致的下眼睑灰黑描边（保留带妆上眼线与深色睫毛）\n• 方向性上睑投影：仅保留上眼睑向下立体阴影与上缘 AO，彻底移除下眼睑黑灰描边，并减弱嵌入式眼白外圈暗角\n• 下眼睑轮廓精准外推吸附：放开暗色上限限制并减少凸弧平滑内缩，完整吃净下眼皮抗锯齿灰坡直抵亮面唇沿，同时锁定纯眼窝内边避免亮度回落\n• 兼容旧存档与高精度导出：已保存娃头无需重新抠图即可即时去除下眼描边；点击「AI 重识别」可同步升级更干净的下眼睑轮廓",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.5/LumiIris-v2.0.5.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.5/LumiIris-v2.0.5.apk",
-  "sha256": "3863488dfb36a23da5eccd0749310cabb99ce5c10b168ad3438c08b699cccd37",
+  "changelog": "璃瞳 LumiIris v2.0.6 测试版\n• 彻底修复手机端「AI 一键自动抠眼眶」下眼睑漏抠月牙形灰底：当 Google ML Kit 按真人眼睛比例给出偏高/扁窄的种子框时，放宽纵向 ROI、邻域肤色环与 Stage 1/Type B 区域生长下限至 BJD 眼裂完整高度，不再撞上小框边界提前截断\n• 新增 AI + 视觉双重轮廓融合：ML Kit 定位双眼后自动叠加 BJD 对称眼裂包络校验，确保素头与大眼娃头一次性抠满到底、覆盖干净\n• 保留 v2.0.5 全部边缘精修：前景去色溢净色（无下眼描边）、方向性上睑投影与纯眼窝内边锁定",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.6/LumiIris-v2.0.6.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.6/LumiIris-v2.0.6.apk",
+  "sha256": "4c6b92f71a69ec7f181d1478548958dbe0f4c9789aa53561d97a2900ddab016d",
   "fileSizeBytes": 119182224,
-  "publishedAt": "2026-11-20T11:45:30+08:00"
+  "publishedAt": "2026-11-20T12:09:00+08:00"
 }
