@@ -1,12 +1,12 @@
 {
-  "versionCode": 25,
-  "versionName": "2.0.6",
+  "versionCode": 27,
+  "versionName": "2.0.7",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.6 测试版\n• 彻底修复手机端「AI 一键自动抠眼眶」下眼睑漏抠月牙形灰底：当 Google ML Kit 按真人眼睛比例给出偏高/扁窄的种子框时，放宽纵向 ROI、邻域肤色环与 Stage 1/Type B 区域生长下限至 BJD 眼裂完整高度，不再撞上小框边界提前截断\n• 新增 AI + 视觉双重轮廓融合：ML Kit 定位双眼后自动叠加 BJD 对称眼裂包络校验，确保素头与大眼娃头一次性抠满到底、覆盖干净\n• 保留 v2.0.5 全部边缘精修：前景去色溢净色（无下眼描边）、方向性上睑投影与纯眼窝内边锁定",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.6/LumiIris-v2.0.6.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.6/LumiIris-v2.0.6.apk",
-  "sha256": "4c6b92f71a69ec7f181d1478548958dbe0f4c9789aa53561d97a2900ddab016d",
-  "fileSizeBytes": 119182224,
-  "publishedAt": "2026-11-20T12:09:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.7 测试版\n• 彻底修复 PNG 导出失败只显示「: null」的问题：捕获系统 OOM / 空指针 / 读写异常并在弹窗与顶部横幅直接展示真实原因\n• 新增自动降档 DPI 明确提示：内存或画布像素受限触发降档后，弹窗与状态栏均直接提示「原设定 DPI → 实际降档 DPI（像素分辨率）」\n• 优化大图导出内存峰值：取消未去白底时的冗余 Bitmap.copy()、按打印需求自动抽样解码大图、限制绘制缓存上限并支持多级平滑 DPI 降档保护",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.7/LumiIris-v2.0.7.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.7/LumiIris-v2.0.7.apk",
+  "sha256": "32780e65cb60288d219a81215112a247c41b88d01ee9e50cb4de2c129ca59a2e",
+  "fileSizeBytes": 119247760,
+  "publishedAt": "2026-11-23T12:38:00+08:00"
 }
