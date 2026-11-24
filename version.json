@@ -1,12 +1,12 @@
 {
-  "versionCode": 27,
-  "versionName": "2.0.7",
+  "versionCode": 28,
+  "versionName": "2.0.8",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.7 测试版\n• 彻底修复 PNG 导出失败只显示「: null」的问题：捕获系统 OOM / 空指针 / 读写异常并在弹窗与顶部横幅直接展示真实原因\n• 新增自动降档 DPI 明确提示：内存或画布像素受限触发降档后，弹窗与状态栏均直接提示「原设定 DPI → 实际降档 DPI（像素分辨率）」\n• 优化大图导出内存峰值：取消未去白底时的冗余 Bitmap.copy()、按打印需求自动抽样解码大图、限制绘制缓存上限并支持多级平滑 DPI 降档保护",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.7/LumiIris-v2.0.7.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.7/LumiIris-v2.0.7.apk",
-  "sha256": "32780e65cb60288d219a81215112a247c41b88d01ee9e50cb4de2c129ca59a2e",
-  "fileSizeBytes": 119247760,
-  "publishedAt": "2026-11-23T12:38:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.8 测试版\n• 按 Photoshop 标准重构 PSD 色彩引擎：完整读取内嵌 0x040F ICC 描述文件（Display P3 / Adobe RGB / CMYK A2B0 / 灰度）并做 Bradford D50→D65→sRGB 精确转换\n• 彻底修复 CMYK / Lab / 16-bit / 32-bit 与压缩预测：替换粗糙 C*K 为 CMYK A2B0 查表及印刷网点校准回退，新增 Lab/16-bit/32-bit 浮点解码、全局 Lr16/Lr32 图层与 ZIP 水平预测修复\n• 修复合并图透明通道白底发灰发粉：严格按 layerCount < 0 区分真实透明与独立 Alpha/专色通道，并对 Section 5 预乘白底做反预乘还原\n• 自研纯血 PS 合成器统一四模式：完整支持全部 27 种混合模式、Special 8 填充不透明度（iOpa）、穿透/隔离组（lsct）、剪贴蒙版（clbl）、图层蒙版（羽化/浓度）、填充与调整图层（曲线/色阶/色相饱和度/色彩平衡/可选颜色等）及图层样式（颜色/渐变叠加、投影、外发光、描边）",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.8/LumiIris-v2.0.8.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.8/LumiIris-v2.0.8.apk",
+  "sha256": "ba8baf740258e2bcbc7aeefd2078cb1ba58f5f674eadf6db4cc73a276acf0b3d",
+  "fileSizeBytes": 119477136,
+  "publishedAt": "2026-11-25T00:05:00+08:00"
 }
