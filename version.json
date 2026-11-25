@@ -1,12 +1,12 @@
 {
-  "versionCode": 28,
-  "versionName": "2.0.8",
+  "versionCode": 29,
+  "versionName": "2.0.9",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.8 测试版\n• 按 Photoshop 标准重构 PSD 色彩引擎：完整读取内嵌 0x040F ICC 描述文件（Display P3 / Adobe RGB / CMYK A2B0 / 灰度）并做 Bradford D50→D65→sRGB 精确转换\n• 彻底修复 CMYK / Lab / 16-bit / 32-bit 与压缩预测：替换粗糙 C*K 为 CMYK A2B0 查表及印刷网点校准回退，新增 Lab/16-bit/32-bit 浮点解码、全局 Lr16/Lr32 图层与 ZIP 水平预测修复\n• 修复合并图透明通道白底发灰发粉：严格按 layerCount < 0 区分真实透明与独立 Alpha/专色通道，并对 Section 5 预乘白底做反预乘还原\n• 自研纯血 PS 合成器统一四模式：完整支持全部 27 种混合模式、Special 8 填充不透明度（iOpa）、穿透/隔离组（lsct）、剪贴蒙版（clbl）、图层蒙版（羽化/浓度）、填充与调整图层（曲线/色阶/色相饱和度/色彩平衡/可选颜色等）及图层样式（颜色/渐变叠加、投影、外发光、描边）",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.8/LumiIris-v2.0.8.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.8/LumiIris-v2.0.8.apk",
-  "sha256": "ba8baf740258e2bcbc7aeefd2078cb1ba58f5f674eadf6db4cc73a276acf0b3d",
-  "fileSizeBytes": 119477136,
-  "publishedAt": "2026-11-25T00:05:00+08:00"
+  "changelog": "璃瞳 LumiIris v2.0.9 测试版\n• 彻底修复 PDF 导出与无线打印崩溃问题：修正 PDF 页面未完成序列化前提前销毁位图缓存的问题，并共享跨页小体积缓存降低内存峰值\n• 大幅降低高分 PNG / 展示图 / 2.5D 试戴导出崩溃与写盘失败：收紧默认安全像素阈值、修复 Catmull-Rom 与锐化滤波堆内存溢出、补全 PNG 编码校验与试戴大图采样/多级降档\n• 修复「选完导出路径回来没有文件」与系统分享崩溃：持久化待保存文件状态（Activity 重建不丢失）、增强 SAF 流写入兼容性、捕获分享组件异常\n• 新增纯文本无图形运行诊断与错误日志导出：内置全局崩溃监听与导出断点记录（识别系统强杀与失败具体原因），可在设置页、导出失败弹窗及崩溃重启弹窗一键导出/复制/分享 .txt 日志",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.9/LumiIris-v2.0.9.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.9/LumiIris-v2.0.9.apk",
+  "sha256": "c431e7229487bd5c6c0576be9d40223cb290adff684139c1478f297ce961711f",
+  "fileSizeBytes": 119624636,
+  "publishedAt": "2026-11-25T19:04:30+08:00"
 }
