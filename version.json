@@ -1,12 +1,12 @@
 {
-  "versionCode": 29,
-  "versionName": "2.0.9",
+  "versionCode": 30,
+  "versionName": "2.0.10",
   "minSupportedVersionCode": 1,
   "forceUpdate": false,
-  "changelog": "璃瞳 LumiIris v2.0.9 测试版\n• 彻底修复 PDF 导出与无线打印崩溃问题：修正 PDF 页面未完成序列化前提前销毁位图缓存的问题，并共享跨页小体积缓存降低内存峰值\n• 大幅降低高分 PNG / 展示图 / 2.5D 试戴导出崩溃与写盘失败：收紧默认安全像素阈值、修复 Catmull-Rom 与锐化滤波堆内存溢出、补全 PNG 编码校验与试戴大图采样/多级降档\n• 修复「选完导出路径回来没有文件」与系统分享崩溃：持久化待保存文件状态（Activity 重建不丢失）、增强 SAF 流写入兼容性、捕获分享组件异常\n• 新增纯文本无图形运行诊断与错误日志导出：内置全局崩溃监听与导出断点记录（识别系统强杀与失败具体原因），可在设置页、导出失败弹窗及崩溃重启弹窗一键导出/复制/分享 .txt 日志",
-  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.9/LumiIris-v2.0.9.apk",
-  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.9/LumiIris-v2.0.9.apk",
-  "sha256": "c431e7229487bd5c6c0576be9d40223cb290adff684139c1478f297ce961711f",
+  "changelog": "璃瞳 LumiIris v2.0.10 测试版\n• 彻底修好小图/低像素眼珠原图在高清导出时“写像素报错导致 PNG 和 PDF 双双导不出”的疑难 bug（之前提示 IllegalStateException / Bitmap.setPixels / null / Current page not finished! 均已解决）\n• 新增 PDF 导出内存分档保护：遇到百张以上不同花色眼珠同时排版时，若设备内存紧张会自动温和降低 PDF 内部图像精细度重试，确保稳定生成不崩（物理毫米尺寸与清晰版面完全不变）\n• 顺手加固试戴手涂蒙版与 CMYK 校色写入保护，避免新系统上出现只读图片写入异常",
+  "apkUrl": "https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.10/LumiIris-v2.0.10.apk",
+  "fallbackApkUrl": "https://ghfast.top/https://github.com/SuRanHF/lumiiris-test-releases/releases/download/v2.0.10/LumiIris-v2.0.10.apk",
+  "sha256": "7efe2fce247a66add6da1ae98aed1cd35368e12ee07875a079992c2034263d60",
   "fileSizeBytes": 119624636,
-  "publishedAt": "2026-11-25T19:04:30+08:00"
+  "publishedAt": "2026-11-26T09:56:30+08:00"
 }
